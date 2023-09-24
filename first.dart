@@ -1,5 +1,10 @@
 
 
+import 'dart:async';
+import 'dart:io';
+
+
+
 class mdhan{
   void mad(){                      // class create
     print('madhanraj');
@@ -148,7 +153,14 @@ print(a is double);       // this is this data type
 print(a is! double);      // this is not this data type
 print(a is! int);
 
+String h='';
+assert(h!='','madharaj');       //   assert
 
+print('\n\n Exception handling \n');
+try{
+  int i = 1 ~/ 0;
+  print(i);
+}catch(error){print(error);};
 
 
 
